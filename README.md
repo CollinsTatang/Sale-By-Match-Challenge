@@ -3,9 +3,12 @@ There is a large pile of socks that must be paired by color. Given an array of i
 
 Example
 
-
-There is one pair of color 1 and one of color 2. There are three odd socks left, one of each color. The number of pairs is 2.
-
+<ul>
+  <li>There is one pair of color 1 and one of color 2. </li>
+  <li>There are three odd socks left, one of each color.</li>
+  <li>The number of pairs is 2.</li>
+</ul>
+ 
 Function Description
 
 sockMerchant has the following parameter(s):
@@ -19,11 +22,10 @@ Returns
 int: the number of pairs
 
 Sample Input
+  
+ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
+n = 9;
 
-STDIN                       Function
------                       --------
-9                           n = 9
-10 20 20 10 10 30 50 10 20  ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
 Sample Output
 
 3
