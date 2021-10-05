@@ -23,7 +23,7 @@ int: the number of pairs
 
 Sample Input
   
-ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
+ar = [10, 20, 20, 10, 10, 30, 50, 10, 20] <br>
 n = 9;
 
 Sample Output
