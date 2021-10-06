@@ -32,3 +32,9 @@ let sum = sock.reduce((Accumulator, currentValue) => Accumulator + currentValue)
 console.log(sockMerchant(n, sock));
 console.log(sum);
  
+// Just make some Promise
+let P = new Promise((resolve,reject) => {
+  (sum == sockMerchant(n, sock)) ? resolve("Your right!") : reject("Think of it again!")
+})
+P.then((massage) => console.log('massage correct' + ' ' + massage)).catch((massage) => 
+  console.log('Wrong massage' + ' ' + massage));
