@@ -25,4 +25,10 @@ function sockMerchant(n, ar) {
 
 let sock = [10, 20, 20, 10, 10, 30, 50, 10, 20];
 let n = 9;
+
+let a = 180;
+// Add reduce method to sum the element of an array 
+let sum = sock.reduce((Accumulator, currentValue) => Accumulator + currentValue)
 console.log(sockMerchant(n, sock));
+console.log(sum);
+ 
